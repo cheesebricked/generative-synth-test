@@ -3,11 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <script src="./tone/Tone.js"></script>
     <title>Document</title>
 </head>
 <body>
     <button id="start">start</button>
+    <button id="mute">mute</button>
+    <div id="slidecontainer">
+        <input type="range" min="95" max="100" value="98.58" id="vol-slider" step="0.01">
+        <label for="vol-slider" id="vol-label">Volume: </label>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
